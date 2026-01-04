@@ -522,7 +522,7 @@ const App: React.FC = () => {
             </div>
             
             <nav className="flex flex-wrap justify-center gap-8">
-              <FooterLink active={activeTab === 'how-to'} onClick={() => setActiveTab('how-to'} label="How it Works" icon={<HelpCircle size={14} />} />
+              <FooterLink active={activeTab === 'how-to'} onClick={() => setActiveTab('how-to')} label="How it Works" icon={<HelpCircle size={14} />} />
               <FooterLink active={activeTab === 'about'} onClick={() => setActiveTab('about')} label="About Me" icon={<Info size={14} />} />
               <FooterLink active={activeTab === 'feedback'} onClick={() => setActiveTab('feedback')} label="Feedback" icon={<MessageCircle size={14} />} />
             </nav>
