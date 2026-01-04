@@ -1,0 +1,6 @@
+
+{
+  "name": "CashMertik",
+  "description": "A secure, client-side personal finance dashboard that parses bank statements directly in your browser with privacy-first data handling.",
+  "requestFramePermissions": []
+}
